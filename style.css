@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: whitesmoke; /* Light background */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    background-color: #092635;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30px;
+    background-color: #9EC8B9; /* Light blue background */
+    min-height: 80vh;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.hero-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 8rem;
+    font-family: "Sacramento", cursive;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-left: 8rem;
+}
+
+.hero-image img {
+    max-width: 350px;
+    border-radius: 75%;
+}
+
+/* Flashcard styling for sections */
+section {
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #9EC8B9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p, section ul {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#resume, #projects {
+    text-align: left;
+}
+
+#resume .resume-container {
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+}
+
+.resume-item {
+    background-color: rgba(245, 245, 245, 0.646);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 20%;
+}
+
+#projects .projects-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: rgba(245, 245, 245, 0.646);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+}
+
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    color: #777;
+}
+
+/* Contact section styles */
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #092635;
+    color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.bottom-container{
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+
